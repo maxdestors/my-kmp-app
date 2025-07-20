@@ -24,3 +24,9 @@ We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public S
 If you face any issues, please report them on [YouTrack](https://youtrack.jetbrains.com/newIssue?project=CMP).
 
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+
+
+desktopRun => gradle run => desktopRun -DmainClass=org.example.project.MainKt --quiet
+serverBuild => gradle run => :server:build
+serverRun => gradle run => :server:run
+wasmRun => gradle run => :composeApp:wasmJsBrowserDevelopmentRun
