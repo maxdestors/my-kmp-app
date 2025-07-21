@@ -26,7 +26,7 @@ If you face any issues, please report them on [YouTrack](https://youtrack.jetbra
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
 
 
-desktopRun => gradle run => desktopRun -DmainClass=org.example.project.MainKt --quiet
-serverBuild => gradle run => :server:build
-serverRun => gradle run => :server:run
-wasmRun => gradle run => :composeApp:wasmJsBrowserDevelopmentRun
+* desktopRun => gradle run => desktopRun -DmainClass=org.example.project.MainKt --quiet
+* serverBuild => gradle run => :server:build
+* serverRun => gradle run => :server:run
+* wasmRun => gradle run => :composeApp:wasmJsBrowserDevelopmentRun
